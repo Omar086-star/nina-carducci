@@ -2,7 +2,7 @@ body{max-width:1920px;margin:auto}*{font-family:Inter;font-style:normal}.top-hea
 footer{
 	display:flex ;
 	width: 100%;
-	justify-content: center;
+	justify-content: space-evenly;
 	text-align: center;
 	background-color: #beb45a;
     border: none;
@@ -11,12 +11,13 @@ footer{
  footer h2{
 	max-width: 50%;
     padding: 20px 40px 20px 0;
-    margin: 30px 15px;
+ margin-right: 0;
     font-size: 36px;
     font-weight: 700;
  }
  .loacation p ,  .loacation span , .photo p , .photo strong {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 400;
     color: initial;
     margin-bottom: 0;
  }
@@ -27,3 +28,11 @@ justify-content: space-between;
 margin-bottom: 15px;
 
  }
+
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
