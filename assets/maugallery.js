@@ -235,6 +235,7 @@
         console.error(`Unknown tags position: ${position}`);
       }
     },
+
     filterByTag() {
       if ($(this).hasClass("active-tag")) {
         return;
@@ -250,6 +251,7 @@
           .hide();
         if (tag === "all") {
           $(this)
+
             .parents(".item-column")
             .show(300);
         } else if ($(this).data("gallery-tag") === tag) {
@@ -261,3 +263,6 @@
     }
   };
 })(jQuery);
+
+
+

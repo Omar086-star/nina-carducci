@@ -36,3 +36,30 @@ margin-bottom: 15px;
         display: block;
     }
 
+    .gallery .nav {
+      justify-content:center;
+   }
+
+   .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+      color: #fff;
+      background-color: #807732;
+      border-radius:0 ;
+   }
+ 
+   .mg-prev, .mg-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      cursor: pointer;
+      color: rgb(38, 255, 0);
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 50%;
+  }
+  .mg-prev {
+      left: -20px;
+  }
+  .mg-next {
+      right: -20px;
+  }

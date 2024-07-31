@@ -156,7 +156,7 @@ abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-  cursor: help;
+  cursor: pointer;
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }

@@ -98,13 +98,22 @@ body {
 	padding-block: 2em;
 }
 .gallery .nav {
-	justify-content: center;
+	justify-content:end;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #807732;
 	border-radius:0 ;
 }
+
+
+
+.nav-link .active-tag{
+	color: #fff;
+	background-color: #3a3280;
+	border: 2px solid red;
+}
+
 .nav-pills .nav-link {
 	color: #000
 }
