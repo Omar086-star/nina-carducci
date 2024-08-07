@@ -15,13 +15,16 @@ footer{
     font-size: 36px;
     font-weight: 700;
  }
- .loacation p ,  .loacation span , .photo p , .photo strong {
+ .location p ,  .location span , .photo p , .photo strong {
     font-size: 22px;
     font-weight: 400;
     color: initial;
     margin-bottom: 0;
  }
- .loacation , .photo {
+ .location span{
+   display:block;
+ }
+ .location , .photo {
     display: flex;
     flex-direction: column;
 justify-content: space-between;
